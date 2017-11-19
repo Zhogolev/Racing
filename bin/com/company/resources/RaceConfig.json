@@ -1,0 +1,25 @@
+{
+  "vehicles": [
+    { "type": "CAR",
+      "chance": 4,
+      "special" : 5,
+      "speed" : 13
+    },
+    { "type": "BIKE",
+      "chance": 4,
+      "special" : false,
+      "speed" : 10
+    },
+    { "type": "BIKE",
+      "chance": 4,
+      "special" : true,
+      "speed" : 12
+    },
+    { "type": "TRUCK",
+      "chance": 4,
+      "special" : 22,
+      "speed" : 9
+    }
+  ],
+  "distance": 200
+}
