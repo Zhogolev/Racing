@@ -18,13 +18,18 @@ Racing [![Build Status](https://travis-ci.org/Zhogolev/Racing.svg?branch=master)
 ```
 
 ## Run
-```Command in console from root project to run the Race -java -classpath ./bin com/company/main/Main
+
+```Command in console from root project to run the Race 
+-java -classpath ./bin com/company/main/Main
 ```
 
 ## Before run
+
 ```Copy "resources" folder from src/com/company/ to bin/com/company/ folder resources contain the config file RaceConfig.json
 ```
+
 ### About config file 
+
 ``` "distance"  mean lap distance 
     "vehicals" in same file is an array of veh. for race.
 ```
