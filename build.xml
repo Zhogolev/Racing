@@ -1,0 +1,15 @@
+
+<project name="Race" default="all" >
+
+        <target name="make.dirs" description="Make some dirs">
+         <mkdir dir="bin"/>
+        </target>
+
+       <target name="compile" description="compile java"  depends="make.dirs">
+           <javac destdir="bin">
+              <src path="src"/>
+           </javac>
+        </target>
+
+        <target name="test" description="Do the build"  depends="compile"/>
+</project>
