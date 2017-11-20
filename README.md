@@ -28,7 +28,8 @@ Command in console from root project to run the Race
 ## Before run
 
 ```
-Copy "resources" folder from src/com/company/ to bin/com/company/ folder resources contain the config file RaceConfig.json
+Copy "resources" folder from src/com/company/ to bin/com/company/ 
+folder resources contain the config file RaceConfig.json
 ```
 
 ### About config file 
