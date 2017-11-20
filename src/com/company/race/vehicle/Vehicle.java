@@ -82,7 +82,7 @@ public class Vehicle {
         this.roundTime += minDistance/speed;
 
         int delayTime = (int)(time * 1000);
-
+        System.out.println("CUR.DIST         " + id + "      "  + this.currentDistance);
         try {
             Thread.sleep(delayTime);
         } catch (InterruptedException e) {
